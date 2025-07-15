@@ -1,0 +1,21 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive SSH keys
+key.pem
+fixed_key.pem
+
+# Output files
+*.pem
+*.log
+
+# Personal or temporary files
+*.tfvars
+*.tfvars.json
+.DS_Store
+.idea/
+.vscode/
+*.swp
